@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orders - Tiffin Service</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/tiffinbox.png" alt="Tiffin Service">
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="cart.html">Cart</a>
+    </nav>
+  </header>
+  
+  <section class="orders-section">
+    <h2>Your Orders</h2>
+    <div class="orders-container">
+      <!-- Order Item -->
+      <div class="order-item">
+        <h3>Order #12345</h3>
+        <p>Items: Vegetarian Thali, Chicken Biryani</p>
+        <p>Total: $19.98</p>
+        <p>Status: Delivered</p>
+        <button class="rate-btn">Rate</button>
+      </div>
+      <!-- Order Item -->
+      <div class="order-item">
+        <h3>Order #12346</h3>
+        <p>Items: Paneer Butter Masala, Egg Curry</p>
+        <p>Total: $18.50</p>
+        <p>Status: In Progress</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews">
+    <h2>Leave a Review</h2>
+    <form>
+      <label for="rating">Rating:</label>
+      <input type="number" id="rating" name="rating" min="1" max="5">
+      
+      <label for="review">Review:</label>
+      <textarea id="review" name="review"></textarea>
+      
+      <button type="submit">Submit Review</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Tiffin Service</p>
+  </footer>
+</body>
+</html>
